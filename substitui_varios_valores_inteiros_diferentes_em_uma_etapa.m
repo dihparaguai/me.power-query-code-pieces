@@ -1,4 +1,4 @@
-    // Realiza transformação de valor na coluna 'resposta_unificada' mudando para 'ÓTIMO+BOM' e 'RUIM+PÉSSIMO'
+    // Realiza transformação de valor inteiro da celula na coluna 'resposta_unificada' mudando para 'ÓTIMO+BOM' e 'RUIM+PÉSSIMO'
     step_valor_substituido_otimo_bom_ruim_pessimo = 
         Table.TransformColumns(
             step_coluna_duplicada_resposta_unificada,
